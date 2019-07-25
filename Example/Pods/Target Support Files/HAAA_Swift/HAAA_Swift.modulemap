@@ -1,0 +1,6 @@
+framework module HAAA_Swift {
+  umbrella header "HAAA_Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

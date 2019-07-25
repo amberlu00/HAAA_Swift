@@ -1,0 +1,6 @@
+framework module Pods_HAAA_Swift_Example {
+  umbrella header "Pods-HAAA_Swift_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

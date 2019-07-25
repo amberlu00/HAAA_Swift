@@ -41,11 +41,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6ECB51FDC3761047A04C4F97 /* Pods-HAAA_Swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAAA_Swift_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HAAA_Swift_Example/Pods-HAAA_Swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		787F5169F557B6DA28DC0A73 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		87850ABF5431FA9443415843 /* HAAA_Swift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HAAA_Swift.podspec; path = ../HAAA_Swift.podspec; sourceTree = "<group>"; };
+		787F5169F557B6DA28DC0A73 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		87850ABF5431FA9443415843 /* HAAA_Swift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HAAA_Swift.podspec; path = ../HAAA_Swift.podspec; sourceTree = "<group>"; };
 		92316A509749B719B6990A89 /* Pods-HAAA_Swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAAA_Swift_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HAAA_Swift_Example/Pods-HAAA_Swift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D03122207EC0B29612C3E52 /* Pods-HAAA_Swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAAA_Swift_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HAAA_Swift_Tests/Pods-HAAA_Swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E83091F87481517608C7C366 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E83091F87481517608C7C366 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E91C831292D559747E998261 /* Pods_HAAA_Swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HAAA_Swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -93,7 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for HAAA_Swift */,
+				607FACD21AFB9204008FA782 /* HAAA_Swift */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				3E060E9D476BBFC31977332A /* Pods */,
@@ -110,7 +110,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for HAAA_Swift */ = {
+		607FACD21AFB9204008FA782 /* HAAA_Swift */ = {
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -120,7 +120,6 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for HAAA_Swift";
 			path = HAAA_Swift;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
